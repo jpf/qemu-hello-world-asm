@@ -11,4 +11,4 @@ These are the commands to run to boot a small version of GNU/Linux in QEMU, have
 
 At this point, edit /sbin/init to display "Hello, World" and end with "/sbin/reboot -p -f"
 
-$ ./i386-softmmu/qemu-system-i386 linux-0.2.img -no-reboot -d in_asm 2>&1 | tee qemu-hello-world-asm
+    $ ./i386-softmmu/qemu-system-i386 linux-0.2.img -no-reboot -d in_asm 2>&1 | tee qemu-hello-world-asm
